@@ -68,10 +68,12 @@ ol {
 }
 
 .header-navigation-link:hover,
-.header-navigation-link:focus {
-	color: var(--text);
-}
+.header-navigation-link:focus,
 .header-navigation-link:active {
+	color: var(--primary-brand);
+}
+
+.current {
 	color: var(--primary-brand);
 }
 
@@ -111,11 +113,7 @@ ol {
 }
 
 .main-banner-btn:hover,
-.main-banner-btn:focus {
-	color: var(--white);
-	background-color: var(--primary-brand);
-}
-
+.main-banner-btn:focus,
 .main-banner-btn:active {
 	background-color: #404bbf;
 }
