@@ -11,6 +11,8 @@ body {
 	font-family: "Roboto", sans-serif;
 	color: var(--dark);
 	background-color: var(--white);
+	position: absolute;
+
 }
 
 p,
@@ -35,8 +37,6 @@ ol {
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.33;
-	display: flex;
-	align-items: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -46,6 +46,7 @@ ol {
 .header-logo-web {
 	color: var(--primary-brand);
 }
+
 
 .header-navigation-item {
 	font-weight: 700;
@@ -102,7 +103,6 @@ ol {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.18;
-	display: flex;
 	align-items: center;
 	letter-spacing: 0.04em;
 	color: var(--white);
@@ -177,7 +177,6 @@ ol {
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.16;
-	display: flex;
 	align-items: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
@@ -212,7 +211,6 @@ ol {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.5;
-	display: flex;
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.04em;
