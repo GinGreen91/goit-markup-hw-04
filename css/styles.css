@@ -81,7 +81,7 @@ img {
 .header-navigation-list {
 	display: flex;
 	gap: 40px;
-	padding-left: 77px;
+	margin-left: 77px;
 }
 
 .header-navigation-item {
@@ -146,8 +146,7 @@ img {
 	color: var(--white);
 	background-color: var(--primary-brand);
 	align-items: center;
-	width: 170px;
-	height: 51px;
+	padding: 16px 32px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	cursor: pointer;
@@ -190,7 +189,12 @@ img {
 .activities-list,
 .team-list {
 	gap: 24px;
-	padding-top: 72px;
+	margin-top: 72px;
+	margin-bottom: 120px;
+}
+
+.team-list {
+	margin-bottom: 72px;
 }
 
 .features-subtitle,
@@ -216,9 +220,12 @@ img {
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
-	padding-top: 120px;
+	margin-top: 120px;
 }
 
+.team-title {
+	padding-top: 120px;
+}
 .section-team {
 	background: #f4f4fd;
 	margin-top: 120px;
@@ -329,17 +336,16 @@ img {
 	color: var(--dark);
 }
 
+.project-content {
+	padding-top: 32px;
+	padding-left: 16px;
+}
 .project-type {
 	font-size: 16px;
 	color: var(--text);
 	padding-top: 8px;
 }
 
-.project-content {
-	padding-top: 32px;
-	padding-left: 16px;
-}
-
 .project-section {
-	padding-bottom: 120px;
+	margin-bottom: 72px;
 }
