@@ -198,9 +198,6 @@ img {
 .activities-item {
 	width: calc((100% - 48) / 3);
 }
-.team-list {
-	margin-bottom: 72px;
-}
 
 .features-subtitle,
 .team-member-name {
