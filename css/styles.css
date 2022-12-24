@@ -42,6 +42,10 @@ img {
 	margin: 0 auto;
 }
 
+.section {
+	padding: 120px 0;
+}
+
 *,
 *::before,
 *::after {
@@ -69,7 +73,6 @@ img {
 	text-decoration: none;
 	color: var(--dark);
 	display: flex;
-
 }
 
 .header-logo-web {
@@ -182,13 +185,12 @@ img {
 }
 
 .features-list {
-	width: 1128px;
-	height: 104px;
-	margin: 120px auto;
+	margin-top: 120px;
 	gap: 24px;
 }
 
-.activities-list {
+.activities-list,
+.team-list {
 	gap: 24px;
 	padding-top: 72px;
 }
@@ -213,21 +215,13 @@ img {
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
+	padding-top: 120px;
 }
 
 .section-team {
 	background: #f4f4fd;
 	margin-top: 120px;
 	height: 732px;
-}
-
-.team-title {
-	padding-top: 120px;
-}
-
-.team-list {
-	padding-top: 72px;
-	gap: 24px;
 }
 
 .team-item {
@@ -248,7 +242,7 @@ img {
 /*------FOOTER-------*/
 .footer {
 	background: var(--dark);
-height: 310px;
+	height: 310px;
 }
 
 .fotter-logo {
@@ -261,6 +255,8 @@ height: 310px;
 	text-transform: uppercase;
 	color: #f4f4fd;
 	text-decoration: none;
+	display: flex;
+	padding-top: 100px;
 }
 
 .footer-logo-web {
@@ -270,6 +266,9 @@ height: 310px;
 .footer-text {
 	font-size: 16px;
 	color: #e7e9fc;
+	width: 264px;
+	height: 72px;
+	padding-top: 16px;
 }
 
 /*------MAIN PORTFOLIO PAGE-------*/
