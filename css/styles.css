@@ -151,6 +151,8 @@ img {
 	border-radius: 4px;
 	cursor: pointer;
 	border: 1px;
+	/* display: block;
+	margin: 0 auto; */
 }
 
 .main-banner-btn:hover,
@@ -193,6 +195,9 @@ img {
 	margin-bottom: 120px;
 }
 
+.activities-item {
+	width: calc((100% - 48) / 3);
+}
 .team-list {
 	margin-bottom: 72px;
 }
@@ -208,7 +213,7 @@ img {
 .job-title {
 	font-size: 16px;
 	color: var(--text);
-	padding-top: 8px;
+	margin-top: 8px;
 }
 .subtitle-description {
 	width: 264px;
@@ -242,7 +247,7 @@ img {
 }
 
 .team-member-name {
-	padding-top: 32px;
+	margin-top: 32px;
 }
 /*------FOOTER-------*/
 .footer {
@@ -272,7 +277,7 @@ img {
 	font-size: 16px;
 	color: #e7e9fc;
 	width: 264px;
-	padding-top: 16px;
+	margin-top: 16px;
 }
 
 /*------MAIN PORTFOLIO PAGE-------*/
@@ -285,7 +290,8 @@ img {
 .project-list {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 24px;
+	column-gap: 24px;
+	row-gap: 48px;
 }
 .project-link {
 	text-decoration: none;
@@ -303,7 +309,6 @@ img {
 	background: #ffffff;
 	border: 0.5px solid #f4f4fd;
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-	margin-bottom: 48px;
 }
 .filter-portfolio-btn {
 	font-family: inherit;
@@ -337,15 +342,15 @@ img {
 }
 
 .project-content {
-	padding-top: 32px;
-	padding-left: 16px;
+	margin-top: 32px;
+	margin-left: 16px;
 }
 .project-type {
 	font-size: 16px;
 	color: var(--text);
-	padding-top: 8px;
+	margin-top: 8px;
 }
 
 .project-section {
-	margin-bottom: 72px;
+	margin-bottom: 120px;
 }
