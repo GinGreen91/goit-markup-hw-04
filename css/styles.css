@@ -37,8 +37,8 @@ img {
 }
 
 .container {
-	max-width: 1128px;
-	padding: 0 auto;
+	max-width: 1158px;
+	padding: 0 15px;
 	margin: 0 auto;
 }
 
@@ -46,16 +46,10 @@ img {
 	padding: 120px 0;
 }
 
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-
 /*-------HEADER------*/
 
 .header {
-	padding: 24px 156px;
+	padding: 24px 0;
 	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
@@ -76,6 +70,10 @@ img {
 
 .header-logo-web {
 	color: var(--primary-brand);
+}
+
+.nav {
+	margin-left: 77px;
 }
 
 .header-navigation-list {
@@ -184,7 +182,6 @@ img {
 }
 
 .features-list {
-	margin-top: 120px;
 	gap: 24px;
 }
 
@@ -192,7 +189,6 @@ img {
 .team-list {
 	gap: 24px;
 	margin-top: 72px;
-	margin-bottom: 120px;
 }
 
 .activities-item {
@@ -206,14 +202,15 @@ img {
 	line-height: 1.2;
 }
 
+.features-item {
+	width: 264px;
+}
+
 .subtitle-description,
 .job-title {
 	font-size: 16px;
 	color: var(--text);
 	margin-top: 8px;
-}
-.subtitle-description {
-	width: 264px;
 }
 
 .activities-title,
@@ -222,16 +219,10 @@ img {
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
-	margin-top: 120px;
 }
 
-.team-title {
-	padding-top: 120px;
-}
 .section-team {
 	background: #f4f4fd;
-	margin-top: 120px;
-	height: 732px;
 }
 
 .team-item {
@@ -243,13 +234,13 @@ img {
 	text-align: center;
 }
 
-.team-member-name {
+.member-info {
 	margin-top: 32px;
 }
 /*------FOOTER-------*/
 .footer {
 	background: var(--dark);
-	height: 310px;
+	padding: 100px 0;
 }
 
 .fotter-logo {
@@ -263,7 +254,7 @@ img {
 	color: #f4f4fd;
 	text-decoration: none;
 	display: flex;
-	padding-top: 100px;
+	width: 115px;
 }
 
 .footer-logo-web {
@@ -295,11 +286,10 @@ img {
 }
 
 .filter-portfolio-list {
-	margin-top: 96px;
-	margin-bottom: 72px;
+	padding-top: 96px;
+	padding-bottom: 72px;
 	justify-content: center;
 }
-
 .project-item {
 	width: 360px;
 	height: 420px;
@@ -321,8 +311,6 @@ img {
 	border-radius: 4px;
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 	padding: 12px 24px;
-	align-items: center;
-	text-align: center;
 }
 
 .filter-portfolio-btn:hover,
@@ -349,5 +337,5 @@ img {
 }
 
 .project-section {
-	margin-bottom: 120px;
+	padding-bottom: 120px;
 }
