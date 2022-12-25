@@ -72,7 +72,7 @@ img {
 	color: var(--primary-brand);
 }
 
-.nav {
+.header-navigation {
 	margin-left: 77px;
 }
 
@@ -185,6 +185,10 @@ img {
 	gap: 24px;
 }
 
+.section-activities {
+	padding-top: 0;
+}
+
 .activities-list,
 .team-list {
 	gap: 24px;
@@ -222,12 +226,11 @@ img {
 }
 
 .section-team {
-	background: #f4f4fd;
+	background-color: #f4f4fd;
 }
 
 .team-item {
 	width: 264px;
-	height: 380px;
 	background: #ffffff;
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 	border-radius: 0px 0px 4px 4px;
@@ -235,11 +238,11 @@ img {
 }
 
 .member-info {
-	margin-top: 32px;
+	margin: 32px 0;
 }
 /*------FOOTER-------*/
 .footer {
-	background: var(--dark);
+	background-color: var(--dark);
 	padding: 100px 0;
 }
 
@@ -286,14 +289,13 @@ img {
 }
 
 .filter-portfolio-list {
-	padding-top: 96px;
-	padding-bottom: 72px;
+	margin-top: 96px;
+	margin-bottom: 72px;
 	justify-content: center;
 }
 .project-item {
 	width: 360px;
-	height: 420px;
-	background: #ffffff;
+	background-color: #ffffff;
 	border: 0.5px solid #f4f4fd;
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -327,8 +329,7 @@ img {
 }
 
 .project-content {
-	margin-top: 32px;
-	margin-left: 16px;
+	margin: 32px auto 32px 16px;
 }
 .project-type {
 	font-size: 16px;
