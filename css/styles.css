@@ -126,10 +126,10 @@ img {
 }
 
 .banner-bgimage {
-	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
-		url(/image/mainpage/mainbaner_image.jpg);
+	background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+		url(../image/mainpage/mainbaner_image.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: center top;
 	background-repeat: no-repeat;
 }
 
@@ -156,8 +156,6 @@ img {
 	border-radius: 4px;
 	cursor: pointer;
 	border: 1px;
-	/* display: block;
-	margin: 0 auto; */
 }
 
 .main-banner-btn:hover,
@@ -223,9 +221,31 @@ img {
 	color: var(--text);
 	margin-top: 8px;
 }
+.social-member-list{
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+	margin-top: 8px;
+}
+.social-member-link {
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: var(--primary-brand);
+}
+
+.social-member-link:hover,
+.social-member-link:focus {
+	background-color: var(--success);
+}
 
 .activities-title,
-.team-title {
+.team-title,
+.customers-title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
@@ -245,8 +265,38 @@ img {
 }
 
 .member-info {
+	
 	padding: 32px 0;
 }
+
+.customers-list {
+	list-style-type: none;
+	display: flex;
+	margin-top: 72px;
+	gap: 24px;
+	justify-content: center;
+	
+}
+
+.customers-item {
+}
+
+.customers-link {
+	
+	text-decoration: none;
+	
+}
+
+.client-company {
+	
+	width: 104px;
+	height: 56px;
+	margin: 16px 32px;
+	border: 1px solid #8e8f99;
+	border-radius: 4px;
+	fill: var(--subtle-text);
+}
+
 /*------FOOTER-------*/
 .footer {
 	background-color: var(--dark);
@@ -281,7 +331,8 @@ img {
 /*------MAIN PORTFOLIO PAGE-------*/
 
 .filter-portfolio-item,
-.project-item {
+.project-item,
+.social-member-item {
 	list-style-type: none;
 }
 .filter-portfolio-list,
@@ -291,6 +342,7 @@ img {
 	column-gap: 24px;
 	row-gap: 48px;
 }
+
 .project-link {
 	text-decoration: none;
 }
